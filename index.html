@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Input Demo</title>
+</head>
+<body>
+    <h3>Using CSS to Styling a form</h3>
+    <section>
+        <form action="#">
+            <!-- First Name -->
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstName" placeholder="Your first name...">
+
+            <!-- Last Name -->
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="LastName" placeholder="Your last name...">
+
+            <!-- Country selection -->
+            <label for="country">Country</label>
+            <select name="country" id="country">Country
+                <option value="au">Australia</option>
+                <option value="nz">New Zealand</option>
+                <option value="US">America</option>
+                <option value="uk">UK</option>
+            </select>
+
+            <!-- multiple selection -->
+            <label for="apple">Apple</label>
+            <input type="checkbox" id="apple">
+            <label for="banaba">Banana</label>
+            <input type="checkbox" id="banana">
+
+            <!-- Single selection -->
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender">
+
+            <br>
+            <!-- password -->
+            <label for="pwd">Password</label>
+            <input type="password" id="pwd" name="myPassword" placeholder="Your password...">
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+</html>
